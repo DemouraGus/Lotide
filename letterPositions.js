@@ -29,10 +29,10 @@ const letterPositions = function(sentence) {
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] !== " ") {
     // console.log(results[sentence[i]]);  // if (resl)
-    if (results[sentence[i]] === undefined) {
-      results[sentence[i]] = [i]
+    if (results[sentence[i]]) {
+      results[sentence[i]].push(i);
     } else {
-      results[sentence[i]].push(i)
+      results[sentence[i]] = [i];
     }
       // results[sentence[i]] = (results[sentence[i]] || 0) + [i];
     }

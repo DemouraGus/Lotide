@@ -44,6 +44,8 @@ const without = function(source, itemsToRemove) {
    return arrayWithoutItemsToRemove
 };
 
+module.exports = without;
+
 // console.log(without([1, 2, 3], [1]));
 
 const candy = ["twix", "licorice", "kitkat"];

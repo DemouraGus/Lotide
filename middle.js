@@ -1,7 +1,3 @@
-const eqArrays = require("./eqArrays.js");
-
-const assertArraysEqual = require("./assertArraysEqual.js");
-
 // INPUT: An array of any length
 // STEP: Measure the input
 // STEP: Return empty array if input has 2 or less elements
